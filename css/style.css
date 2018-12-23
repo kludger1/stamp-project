@@ -1,0 +1,137 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.display {
+    display: inline-block;
+    margin: 10px;
+}
+
+
+.album {
+    background-color: purple;
+    width: 150px;
+    height: 210px;
+}
+
+
+.stamp {
+    background-color: pink;
+    width: 210px;
+    height: 150px;
+}
+
+.stamp-container{
+    max-width: 900px;
+    width: 85%;
+   margin: 0 auto;
+   margin-top: 15vh;
+}
+
+.stamp-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.stamp-content p {
+width: 50%;
+margin-left: 3rem;
+}
+
+.simple-border {
+    border: 1px solid black;
+}
+
+.flex-column-center {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-form {
+    max-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15vh;
+}
+
+input {
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+textarea {
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.search-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="search"] {
+    width: 50%;
+    margin-right: 20px;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    padding: 14px 40px;
+    margin: 8px 0;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+.links a {
+    margin: 0 5px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-container a{
+margin-right: 50px;
+}
+
+.name {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.error {
+    background: rgb(228, 33, 33);
+    color: white;
+}
+
+.success {
+    background: rgb(49, 233, 49);
+    color: white;
+}
+.message {
+    width: 50%;
+    padding: 20px;
+    margin: 10px auto;
+    text-align: center;
+}
